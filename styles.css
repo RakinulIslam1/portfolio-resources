@@ -6,31 +6,33 @@ body {
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
-    margin: 30px;
+    /* margin: 30px; */
+    
 }
 .web_t{
     font-size: 45px;
-    font-weight: 800;
-    margin-top: auto;
+    font-weight: 600;
+    /* margin-top: auto; */
      /* color: rgb(235, 71, 12); */
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin-right: 60px;
-    margin-left: 20px;
+    /* margin-right: 60px;
+    margin-left: 20px; */
+    align-items: center;
+    margin-top: -50px;
 }
 nav >ul{
     display: flex;
     list-style-type: none;
+    align-items: center;
 }
 
 nav > li ,a{
     text-decoration: none;
     margin-right: 50px;
     font-size: 25px;
-    /* justify-content: space-evenly; */
-    /* margin-inline: 10px; */
 }
 li button{
     font-size: 20px;
@@ -40,7 +42,31 @@ li button{
     border: none;
     border-radius: 10px;
     padding: 15px;
+    /* margin-top: -12px; */
 }
-.mt{
-    margin-top: 10px;
+
+.header{
+    background-color: bisque;
+    /* padding: 40px */
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.btn{
+    color: white;
+    background-color: orangered;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.down_head{
+    display: flex;
+    justify-content: space-evenly;
+}
+.down_head img{
+    height: 340px;
 }
