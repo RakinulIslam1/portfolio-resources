@@ -101,17 +101,53 @@ li button {
   margin: 20px auto;
 }
 
-.skills{
-    width: 85%;
-    margin: 50px auto;
-    display: flex;
+.skills {
+  width: 85%;
+  margin: 50px auto;
+  display: flex;
+  gap: 25px;
+}
+.sub {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightgray;
+  width: 50%;
+  padding: 20px;
+}
+#txt {
+  margin: 10px;
+  text-align: center;
+}
+.resume {
+  display: flex;
+  margin: 0 100px;
+}
+.list {
+  /* border: 2px solid; */
+  margin: 30px 20px;
+  padding: 10px;
+  /* align-items: center; */
+}
+.list2 {
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 30px;
+}
     
-}
-.sub{
-    border: 1px solid;
-    border-radius: 10px;
-    box-shadow: 10px 10px lightgray;
-    width: 50%;
-    padding: 20px;
-    margin: 0 20px;
-}
+ .d_cv{
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ .last_sec{
+  background-color: bisque;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .form input, textarea{
+  display: block;
+  margin-bottom: 15px;
+  border: 0;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+ }
