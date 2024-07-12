@@ -20,7 +20,6 @@ nav {
   margin-left: 60px;
   align-items: center;
   margin-top: -50px;
-  
 }
 nav > ul {
   display: flex;
@@ -54,7 +53,6 @@ li button {
   background-image: url("./images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  
 }
 
 .btn {
@@ -70,13 +68,50 @@ li button {
 .down_head {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 .down_head img {
   height: 340px;
 }
-.down_head h1,
-h3,
-p {
-  font-size: 25px;
+.down_head {
+  font-size: 20px;
+}
+.mid_body {
+  /* border: 2px solid; */
+  border-radius: 10px;
+  max-width: 60%;
+  margin: 100px auto;
+  padding: 20px 40px;
+  background-color: bisque;
+}
+.body_text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.body_text2 {
+  text-align: center;
+  font-size: 20px;
+  max-width: 70%;
+  margin: 20px auto;
+}
+
+.skills{
+    width: 85%;
+    margin: 50px auto;
+    display: flex;
+    
+}
+.sub{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 10px 10px lightgray;
+    width: 50%;
+    padding: 20px;
+    margin: 0 20px;
 }
