@@ -55,10 +55,9 @@ li button {
   padding-right: 20px;
   padding-left: 20px;
   padding-top: 30px;
-  background-image: url("./images/header_bg.png");
+  background-image: url("./images/header_bg.png"), url("./images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
-  
+  background-position: bottom right, left;
 }
 
 .btn {
@@ -138,25 +137,26 @@ li button {
   border-bottom: 2px solid lightgray;
   margin-bottom: 30px;
 }
-    
- .d_cv{
+
+.d_cv {
   text-align: center;
   margin-bottom: 50px;
- }
- .last_sec{
+}
+.last_sec {
   background-color: bisque;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
- }
- .form input, textarea{
+}
+.form input,
+textarea {
   display: block;
   margin-bottom: 15px;
   border: 0;
   border-radius: 10px;
   padding: 10px;
   font-size: 14px;
- }
- .last_txt{
+}
+.last_txt {
   margin-top: 150px;
- }
+}
