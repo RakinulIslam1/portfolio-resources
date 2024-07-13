@@ -43,6 +43,11 @@ li button {
   padding: 15px;
   /* margin-top: -12px; */
 }
+/* #hdr{
+  background-image: url('./images/developer.png');
+  background-size: 5.2%;
+  background-position: top left;
+} */
 
 .header {
   background-color: bisque;
@@ -53,6 +58,7 @@ li button {
   background-image: url("./images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  
 }
 
 .btn {
